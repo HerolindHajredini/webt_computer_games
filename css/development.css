@@ -25,6 +25,10 @@ figure figcaption {
   align-items: right;
 }
 
+h1{
+  color: white;
+  padding-left: 10mm;
+}
 
 h2{
     color: white;

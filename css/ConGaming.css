@@ -2,7 +2,6 @@
 body{
   background-image: url(../pics/BlackSky.jpg);
 }
-
 section{
   text-align: center;
   
@@ -271,7 +270,7 @@ ul {
 }
 
 img {
-  vertical-align: middle;
+  text-align: center;
   height: auto;
   width: 100%;
 }
@@ -351,7 +350,7 @@ color: lightslategrey;
   right: 30px;
   border: medium solid white;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color:  transparent transparent transparent white;
 }
 
 /* Add arrows to the right container (pointing left) */
