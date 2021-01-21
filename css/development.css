@@ -5,16 +5,15 @@ body{
 }
 
 
-figure {
-  display: inline-block;
-  border: 2px darkred;
-  margin: 30px;
+
+.figure{
+  display:inline-flexbox;
+  flex-direction: row;
+  padding-bottom: 60px;
+  padding-left: 5mm;
 }
-figure img {
-  vertical-align: top;
-}
-figure figcaption {
-  border: 1px blue;
+
+.figure figcaption{
   text-align: center;
 }
 
@@ -410,4 +409,13 @@ color: lightslategrey;
   .right {
   left: 0%;
   }
+}
+
+.row > div{
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+
+  width: 200px;
+  height: 200px;
 }

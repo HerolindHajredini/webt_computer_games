@@ -46,11 +46,16 @@ figure {
 }
 figure img {
   vertical-align: top;
+
+  width: 300px;
+  height: 300px;
 }
+
 figure figcaption {
   border: 1px blue;
   text-align: center;
 }
+
 
 * {
   outline: none;
